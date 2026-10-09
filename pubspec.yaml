@@ -1,0 +1,33 @@
+name: dj_sports
+description: "D.J. Sports - Flutter IPTV & Live Sports Streaming App powered by Supabase."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Supabase SDK for fetching live matches & realtime updates
+  supabase_flutter: ^2.8.0
+
+  # Fast network image caching for team flags & channel logos
+  cached_network_image: ^3.4.1
+
+  # Typography & Icons
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+
+  # IPTV HLS (.m3u8) & MP4 Live Stream Playback
+  video_player: ^2.9.2
+  chewie: ^1.8.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
